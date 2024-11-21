@@ -150,9 +150,9 @@ public class DeadLockDemo
    Object train  =new Object();
    Object comp  =new Object();
    Booking bk  =new Booking(train, comp);
-   bk.setName("Ankit");
+   bk.setName("Anurag");
    Cancel cc =new Cancel(train, comp);
-   cc.setName("Ankita");
+   cc.setName("Anuragtiwari");
    bk.start();
    cc.start();
  }
